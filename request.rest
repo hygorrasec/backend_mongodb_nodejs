@@ -1,0 +1,27 @@
+POST http://localhost:3000/api/users
+Content-Type: application/json
+
+{
+    "name": "Rayane Rasec",
+    "email": "rayanerasec@gmail.com",
+    "password": "123"
+}
+
+###
+GET http://localhost:3000/api/users
+
+###
+GET http://localhost:3000/api/users/662964850475d6faed89e722
+
+###
+DELETE http://localhost:3000/api/users/662964850475d6faed89e722
+
+###
+PUT http://localhost:3000/api/users/66296f31052efe294bb45754
+Content-Type: application/json
+
+{
+    "name": "Rayane Rasec 2",
+    "email": "rayanerasec@gmail.com",
+    "password": "123"
+}

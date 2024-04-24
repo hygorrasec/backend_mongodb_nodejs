@@ -1,0 +1,16 @@
+- Cria o arquivo package.json com as configurações padrão:
+npm init -y
+
+- Express é um framework para Node.js
+- Mongoose é uma biblioteca para modelar objetos MongoDB
+- Cors é um middleware para habilitar o CORS (Cross-Origin Resource Sharing) em uma aplicação Node.js
+- Instalando dotenv para ocultar informações
+npm i express mongoose cors dotenv
+
+- Instala o nodemon como dependência de desenvolvimento:
+npm i -D nodemon
+
+- Inicializa o projeto com o nodemon:
+npm start
+
+Instalar REST Client no VSCode
