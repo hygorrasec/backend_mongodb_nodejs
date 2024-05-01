@@ -16,29 +16,21 @@ npm init -y
 - Mongoose: É uma biblioteca para modelar objetos MongoDB.
 - Cors: É um middleware para habilitar o CORS (Cross-Origin Resource Sharing) em uma aplicação Node.js.
 - Dotenv: Usado para ocultar informações sensíveis do projeto.
+- EJS: Template engine EJS para renderizar o HTML.
+- method-override: Permite utilizar métodos HTTP além dos tradicionais GET e POST em formulários HTML
 
 ```
-npm install express mongoose cors dotenv
+npm install express mongoose cors dotenv ejs method-override
 ```
 
-3. **Instale o nodemon como dependência de desenvolvimento:**
+2. **Instale o nodemon como dependência de desenvolvimento:**
 ```
 npm install -D nodemon
 ```
 
-4. **Inicialize o projeto com o nodemon:**
+3. **Inicialize o projeto com o nodemon:**
 ```
 npm start
-```
-
-5. **Instale a template engine EJS para renderizar o HTML:**
-```
-npm install ejs
-```
-
-6. **Instale o módulo ‘method-override’ para permitir utilizar métodos HTTP além dos tradicionais GET e POST em formulários HTML:**
-```
-npm install method-override
 ```
 
 ## Tela Users
