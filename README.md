@@ -40,3 +40,12 @@ npm install ejs
 ```
 npm install method-override
 ```
+
+## Tela Users
+![Tela Users](https://github.com/hygorrasec/backend_mongodb_nodejs/blob/main/imgs/users.png)
+
+## Tela Edit
+![Tela Edit](https://github.com/hygorrasec/backend_mongodb_nodejs/blob/main/imgs/edit.png)
+
+## Tela Edit
+![Tela MongoDB](https://github.com/hygorrasec/backend_mongodb_nodejs/blob/main/imgs/mongodb.png)
