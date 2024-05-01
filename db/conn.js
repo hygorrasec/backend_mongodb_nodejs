@@ -6,9 +6,9 @@ async function main() {
     try {
         mongoose.set('strictQuery', true);
         await mongoose.connect(`mongodb+srv://hygorrasec:${pass}@cluster0.euxacbl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`);
-        console.log(" - Connected to MongoDB");
+        console.log(' - Connected to MongoDB');
     } catch (error) {
-        console.log(" - Error connecting to MongoDB - Error: ", error);
+        console.log(' - Error connecting to MongoDB - Error: ', error);
     }
 }
 

@@ -39,5 +39,5 @@ npm start
 ## Tela Edit
 ![Tela Edit](https://github.com/hygorrasec/backend_mongodb_nodejs/blob/main/imgs/edit.png)
 
-## Tela Edit
+## Tela MongoDB
 ![Tela MongoDB](https://github.com/hygorrasec/backend_mongodb_nodejs/blob/main/imgs/mongodb.png)
