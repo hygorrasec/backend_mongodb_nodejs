@@ -7,8 +7,9 @@ Este trabalho foi criado por Hygor Rasec em 24/04/2024 para a disciplina de Banc
 Para rodar o servidor, é preciso instalar algumas dependências. Siga os passos abaixo:
 
 1. **Crie o arquivo package.json com as configurações padrão:**
-```bash
-npm init -y```
+```
+npm init -y
+```
 
 2. **Instale as seguintes bibliotecas:**
 - Express: É um framework para Node.js.
@@ -16,21 +17,26 @@ npm init -y```
 - Cors: É um middleware para habilitar o CORS (Cross-Origin Resource Sharing) em uma aplicação Node.js.
 - Dotenv: Usado para ocultar informações sensíveis do projeto.
 
-```bash
-npm install express mongoose cors dotenv```
+```
+npm install express mongoose cors dotenv
+```
 
 3. **Instale o nodemon como dependência de desenvolvimento:**
-```bash
-npm install -D nodemon```
+```
+npm install -D nodemon
+```
 
 4. **Inicialize o projeto com o nodemon:**
-```bash
-npm start```
+```
+npm start
+```
 
 5. **Instale a template engine EJS para renderizar o HTML:**
-```bash
-npm install ejs```
+```
+npm install ejs
+```
 
 6. **Instale o módulo ‘method-override’ para permitir utilizar métodos HTTP além dos tradicionais GET e POST em formulários HTML:**
-```bash
-npm install method-override```
+```
+npm install method-override
+```
