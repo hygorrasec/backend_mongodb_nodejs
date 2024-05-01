@@ -1,7 +1,7 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "Este trabalho foi criado por Hygor Rasec EM 24/04/2024 para a disciplina de Banco de Dados Não Relacional do curso de Engenharia de Software, ministrada pelo professor Fabrício Dias.",
   "main": "index.js",
   "scripts": {
     "start": "nodemon app.js"
@@ -12,8 +12,10 @@
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
     "express": "^4.19.2",
-    "mongoose": "^8.3.2"
+    "method-override": "^3.0.0",
+    "mongoose": "^8.3.3"
   },
   "devDependencies": {
     "nodemon": "^3.1.0"

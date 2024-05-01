@@ -5,12 +5,16 @@ npm init -y
 - Mongoose é uma biblioteca para modelar objetos MongoDB
 - Cors é um middleware para habilitar o CORS (Cross-Origin Resource Sharing) em uma aplicação Node.js
 - Instalando dotenv para ocultar informações
-npm i express mongoose cors dotenv
+npm install express mongoose cors dotenv
 
 - Instala o nodemon como dependência de desenvolvimento:
-npm i -D nodemon
+npm install -D nodemon
 
 - Inicializa o projeto com o nodemon:
 npm start
 
-Instalar REST Client no VSCode
+- Template engine EJS para renderizar o HTML:
+npm install ejs
+
+- Instalando módulo 'method-override' para permitir utilizar métodos HTTP além dos tradicionais GET e POST em formulários HTML:
+npm install method-override
